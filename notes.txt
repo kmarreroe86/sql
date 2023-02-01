@@ -15,4 +15,16 @@ DQL (Data Query Language)
 
 
 
+-Inner Join -> only the matching rows from both tables
+-Left Join -> inner join + remaining records from the left table (declared table to the left of the join clause)
+-Right Join -> inner join + remaining records from the right table (declared table to the right of the join clause)
+-Self Join -> (join a table with itselft)
+    Ex: select child.name, child.age, parent.name, parent.age from family as child join family as parent on child.parent_id = parent.id;
+    
+-Full Join -> inner join + left join + right join
+-Cross Join -> Cartesian join. Every record from left table will be pair with every record from the left table
+- Outer keyword is an optional keyword
+
+
 -Union operator removes duplicate data
+-Union All keeps duplicate data
