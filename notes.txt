@@ -1,0 +1,18 @@
+DDL (Data Definition Language)
+    create, drop, alter, truncate
+
+DML (Data Manipulation Language)
+    insert, update, delete, merge
+
+DCL (Data Control Language)
+    grant, revoke
+
+TCL (Transition Control Language)
+    commit, rollback, savepoint
+
+DQL (Data Query Language)
+    select
+
+
+
+-Union operator removes duplicate data

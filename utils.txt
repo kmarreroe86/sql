@@ -1,4 +1,7 @@
+Progress: https://www.youtube.com/watch?v=AK7_m-aThfw&list=PLavw5C92dz9HQQ_COgGb7kf_1H8UWUBxO&index=6
 
+
+Git:
 -creating git branch:
 echo "# sql" >> README.md
 git init
@@ -12,3 +15,8 @@ git push -u origin main
 git remote add origin https://github.com/kmarreroe86/sql.git
 git branch -M main
 git push -u origin main
+
+
+
+Postgres:
+docker run --name membership-db -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=foobar -p 5432:5432 -d -v /data:/var/lib/postgresql/data -d postgres:12.4
