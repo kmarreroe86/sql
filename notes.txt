@@ -28,3 +28,10 @@ DQL (Data Query Language)
 
 -Union operator removes duplicate data
 -Union All keeps duplicate data
+
+
+Subqueries:
+-Scalar Subquery: Always returns one value(row) in one column
+-Multiple Row Subquery: Returns multiple columns and multiple rows or
+                        Returns one column with multiple rows
+-Correlated Subquery: Subquery is related to the outer query/external query

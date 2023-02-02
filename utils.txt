@@ -1,5 +1,4 @@
-Progress: https://www.youtube.com/watch?v=AK7_m-aThfw&list=PLavw5C92dz9HQQ_COgGb7kf_1H8UWUBxO&index=6
-
+Progress: https://youtu.be/nJIEIzF7tDw?list=PLavw5C92dz9FD9XspliRM_HZM_jK7tkii&t=1367
 
 Git:
 -creating git branch:
