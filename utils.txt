@@ -18,4 +18,4 @@ git push -u origin main
 
 
 Postgres:
-docker run --name membership-db -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=foobar -p 5432:5432 -d -v /data:/var/lib/postgresql/data -d postgres:12.4
+docker run --name membership-db -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=foobar -p 5432:5432 -v pgdata:/var/lib/postgresql/data -d postgres:12.4
