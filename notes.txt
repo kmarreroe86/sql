@@ -34,4 +34,7 @@ Subqueries:
 -Scalar Subquery: Always returns one value(row) in one column
 -Multiple Row Subquery: Returns multiple columns and multiple rows or
                         Returns one column with multiple rows
--Correlated Subquery: Subquery is related to the outer query/external query
+-Correlated Subquery: Subquery is related to the outer query/external query. Correlated subquery gets executed each time for every result in the outer query
+
+
+WITH clause: 
