@@ -100,3 +100,6 @@ begin
     end if;
 end;
 $$
+
+-- CAll the procedure
+call pr_buy_products('iPad air', 1);
